@@ -1,0 +1,71 @@
+.twai-task-card {
+  width: 500px;
+  height: 180px;
+  background-color: rgba(44, 62, 80, .25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 105px; /* Should be 5px */
+  left: 35px; /* Should be 0px */
+  right: 0;
+  /*margin-left: auto;*/
+  margin-right: auto;
+
+  &__name {
+    position: absolute;
+    color: #000;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  }
+
+  &__owner {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #000;
+  }
+
+  &__member {
+    position: absolute;
+    top: 105px;
+    color: #000;
+    font-size: .8rem
+  }
+
+  &__target-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000;
+  }
+
+  &__duration {
+    position: absolute;
+    top: 125px;
+    color: #000;
+    font-size: .8rem
+  }
+
+  &__cost-effort {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid #c0392b;
+    border-radius: 5px;
+    background-color: rgba(192, 57, 43, .15);
+    padding: 3px;
+    color: #000;
+  }
+
+  &__benefit-result {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid #27ae60;
+    border-radius: 5px;
+    background-color: rgba(39, 174, 96, .15);
+    padding: 3px;
+    color: #000;
+  }
+}

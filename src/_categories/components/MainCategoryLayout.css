@@ -1,0 +1,13 @@
+.twai-category-layout {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow-y: scroll;
+  position: relative;
+}

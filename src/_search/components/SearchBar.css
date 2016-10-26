@@ -1,0 +1,31 @@
+.twai-search-bar {
+  align-self: flex-end;
+  margin: 15px;
+
+  input {
+    outline: none;
+  }
+
+  input[type=search] {
+    background: #fafafa url(../search.png) no-repeat;
+    background-position: 12px;
+    background-size: 12px;
+    padding: 3px 12px 3px 12px;
+    border: 1px solid #2980b9;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    color: transparent;
+    cursor: pointer;
+    transition: all .4s ease;
+  }
+
+  input[type=search]:focus {
+    background-color: #fff;
+    width: 520px;
+    border-color: #2980b9;
+    padding-left: 30px;
+    color: #000;
+    cursor: auto;
+  }
+}
